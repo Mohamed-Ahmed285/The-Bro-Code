@@ -95,19 +95,3 @@ render();
 // Bro Chant Toggle
 const broChant = document.getElementById('bro-chant');
 const toggleBtn = document.getElementById('bro-chant-toggle');
-
-// Auto-play the bro chant on page load
-broChant.play().catch(() => {
-    // Autoplay might be blocked, but button will still work
-});
-toggleBtn.textContent = '🔊 Bro Chant';
-
-toggleBtn.addEventListener('click', () => {
-    if (broChant.paused) {
-        broChant.play();
-        toggleBtn.textContent = '🔊 Bro Chant';
-    } else {
-        broChant.pause();
-        toggleBtn.textContent = '🔇 Bro Chant';
-    }
-});

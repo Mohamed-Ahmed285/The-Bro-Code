@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Bro Code</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:ital,wght@0,400;0,600;0,700;1,400&family=Barlow+Condensed:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="bro_style.css">
+  <link rel="shortcut icon" href="bro.png" type="image/x-icon">
+
+</head>
+
+<body>
+
+  <div class="hero">
+    <div class="hero-seal">★ Established Since The Dawn Of Man ★</div>
+    <h1>The Bro<span>Code</span></h1>
+    <div class="hero-subtitle">As transcribed by Barney Stinson</div>
+    <div class="hero-count">149 Sacred Articles</div>
+  </div>
+
+  <div class="controls">
+    <div class="search-wrap">
+      <input type="text" id="search" placeholder="Search the sacred articles..." autocomplete="off">
+    </div>
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="short">Quick Rules</button>
+    <button class="filter-btn" data-filter="detailed">Detailed</button>
+    <div class="results-count" id="count">150 articles</div>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <div class="overlay" id="overlay">
+    <div class="modal" id="modal">
+      <button class="modal-close" id="closeBtn">✕</button>
+      <div class="modal-label" id="modal-label">Article</div>
+      <div class="modal-num" id="modal-num"></div>
+      <div class="modal-rule" id="modal-rule"></div>
+      <div class="modal-details" id="modal-details"></div>
+    </div>
+  </div>
+
+  <script src="bro_script.js"></script>
+</body>
+
+</html>

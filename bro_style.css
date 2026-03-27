@@ -99,6 +99,26 @@ body {
     padding: 6px 20px;
 }
 
+.bro-chant-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: var(--gold);
+    color: var(--dark);
+    border: none;
+    padding: 10px 15px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.bro-chant-btn:hover {
+    background: var(--gold-light);
+}
+
 /* CONTROLS */
 .controls {
     position: sticky;

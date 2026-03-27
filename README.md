@@ -4,7 +4,7 @@ THE BRO CODE
 Welcome, Bro.
 
 This is a sacred digital archive of the legendary Bro Code,
-featuring 149 totally serious life rules that should never
+featuring 150 totally serious life rules that should never
 be questioned, debated, or fact-checked.
 
 ---------------------------------------------------------

@@ -36,11 +36,11 @@ BROGRAMING TOOLS
 
 Built using the finest tools available to modern Bros:
 
-HTML
-CSS
-JavaScript
-Sheer determination
-Caffeine
+- HTML
+- CSS
+- JavaScript
+- Sheer determination
+- Caffeine
 
 ---------------------------------------------------------
 

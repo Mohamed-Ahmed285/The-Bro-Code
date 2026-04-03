@@ -23,7 +23,7 @@ about sports."
 
 FEATURES
 
-- Search through 149 sacred articles
+- Search through 150 sacred articles
 - Filter between quick rules and deep bro philosophy
 - Click any rule to reveal additional wisdom
 - Smooth animations worthy of legendary status

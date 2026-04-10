@@ -222,6 +222,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    max-height: 360px;
 }
 
 .card::before {
@@ -278,6 +279,12 @@ body {
     color: var(--text);
     flex: 1;
     padding-right: 40px;
+    max-height: calc(1.4em * 7);
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
 }
 
 .card-has-details {
